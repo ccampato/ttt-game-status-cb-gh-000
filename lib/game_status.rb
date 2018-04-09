@@ -63,15 +63,13 @@ end
 
 def winner(board)
   index1 = won?(board)[0]
-  index2 = won?(board)[1]
-  index3 = won?(board)[2]
-
+  
   if board[index1] == "X"
     "X"
   elsif board[index1] == "O"
     "O"
   else
-    nil
+
   end
 
 end
