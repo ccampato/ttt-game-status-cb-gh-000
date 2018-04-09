@@ -62,8 +62,6 @@ def over?(board)
 end
 
 def winner(board)
-  winn = won?(board)
-  if winn[0] == "X" && winn[1] == "X" && winn[3] == "X"
-    "X"
-  end 
+  won?(board)
+  
 end
