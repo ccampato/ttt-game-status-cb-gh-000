@@ -64,8 +64,10 @@ end
 def winner(board)
   if won?(board)[0] == "X" && won?(board)[1] == "X" && won?(board)[2] == "X"
     "X"
-  else
+  elsif won?(board)[0] == "O" && won?(board)[1] == "O" && won?(board)[2] == "O"
     "O"
+  else
+    nil
   end
 
 end
