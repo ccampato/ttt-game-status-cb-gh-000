@@ -70,7 +70,7 @@ def winner(board)
   elsif board[index1] == "O"
     "O"
   else
-
+    !won?(board)
   end
 
 end
