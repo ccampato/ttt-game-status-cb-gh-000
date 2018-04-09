@@ -31,7 +31,7 @@ def won?(board)
     end
   end
   if win == []
-    false
+    nil
   else
     win.to_ary
   end
