@@ -64,5 +64,6 @@ end
 def winner(board)
   winner = won?(board)
   if winner[0] == "X" && winner [1] == "X" && winner[3] == "X"
-    "X" 
+    "X"
+  end 
 end
