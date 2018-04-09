@@ -69,7 +69,8 @@ def winner(board)
     "X"
   elsif board[index1] == "O"
     "O"
-  
+  elsif draw?(board)
+    nil
   end
 
 end
