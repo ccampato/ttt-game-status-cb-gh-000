@@ -62,7 +62,9 @@ def over?(board)
 end
 
 def winner(board)
-  array = if won?(board) end
+  if won?(board) 
+    array = won?(board)
+  end
   index1 = array[0]
 
   if board[index1] == "X"
