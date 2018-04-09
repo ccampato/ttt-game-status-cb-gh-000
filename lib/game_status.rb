@@ -63,16 +63,13 @@ end
 
 def winner(board)
   if won?(board) 
-    array = won?(board)
+  
+    if board[index1] == "X"
+      "X"
+    elsif board[index1] == "O"
+      "O"
+    elsif draw?(board)
+      nil
+    end
   end
-  index1 = array[0]
-
-  if board[index1] == "X"
-    "X"
-  elsif board[index1] == "O"
-    "O"
-  elsif draw?(board)
-    nil
-  end
-
 end
