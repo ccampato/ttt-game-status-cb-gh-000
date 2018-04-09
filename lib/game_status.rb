@@ -62,7 +62,7 @@ def over?(board)
 end
 
 def winner(board)
-  winner = won?(board)
+  winner = WIN_COMBINATIONS.each
   if winner.all?{|index| index == "X"}
     "X"
   else
