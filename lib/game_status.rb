@@ -62,6 +62,11 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board)
+  winner = won?(board)
+  if winner.all?{|index| index == "X"}
+    "X"
+  else
+    "O"
+  end
 
 end
