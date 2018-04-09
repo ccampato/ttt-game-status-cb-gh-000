@@ -63,4 +63,9 @@ end
 
 def winner(board)
   won?(board)
+  if win_combination.all? do |index|
+    index == "X"
+  else
+    "O"
+  end
 end
