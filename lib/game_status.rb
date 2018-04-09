@@ -62,6 +62,5 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board) = array
-  if position_taken
+  won?(board)
 end
